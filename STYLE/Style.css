@@ -1,0 +1,179 @@
+body {
+    background: radial-gradient(circle, rgb(0, 112, 50), rgb(0, 59, 50));
+}
+
+h1 {
+    margin-left: 120px;
+    color: red;
+    font-size: 50px;
+}
+
+section {
+    margin-left: 600px;
+}
+
+.DivCuerpo {
+    background: linear-gradient(to bottom right, rgb(0, 60, 255), rgb(0, 255, 255));
+    width: 605px;
+    height: 870px;
+    border-radius: 30px;
+    border: 10px black solid;
+    box-shadow: 10px 10px 5px #0000009a;
+}
+
+.DivBarra {
+    margin-top: 40px;
+    margin-left: 30px;
+    background: linear-gradient(to bottom right, rgb(133, 133, 226), rgb(177, 72, 238));
+    height: 100px;
+    width: 530px;
+    border-radius: 30px;
+    border: 5px black solid;
+    box-shadow: 6px 8px 5px #0000009a;
+}
+
+#TextInBar {
+    margin-left: 10px;
+    margin-top: -4px;
+    font-size: 95px;
+}
+
+.DivTeclado {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: linear-gradient(to bottom, rgb(228, 228, 228), rgb(211, 211, 211));
+    height: 650px;
+    width: 530px;
+    border-radius: 30px;
+    border: 5px black solid;
+    box-shadow: 6px 8px 5px #0000009a;
+}
+
+.DivSubTec1, .DivSubTec2, .DivSubTec3, .DivSubTec4, .DivSubTec5 {
+    display: flex;
+}
+
+.DivNum1, .DivNum2, .DivNum3, .DivNum4, .DivNum5, .DivNum6, .DivNum7, .DivNum8, .DivNum9, .DivNum0 {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 95px;
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(to bottom right, rgb(30, 255, 0), rgb(0, 122, 82));
+    border-radius: 30px;
+    border: 5px black solid;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+.DivAplyDivicion, .DivAplyMulti, .DivAplySuma {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 95px;
+    background: linear-gradient(to bottom right, rgb(138, 43, 226), rgb(192, 0, 192));
+    border-radius: 30px;
+    border: 5px black solid;
+    width: 110px;
+    height: 110px;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+.DivIgual {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 95px;
+    background: linear-gradient(to bottom right, rgb(0, 255, 255), rgb(0, 87, 250));
+    border-radius: 30px;
+    border: 5px black solid;
+    width: 110px;
+    height: 110px;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+.DivBorrar {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 85px;
+    background: linear-gradient(to bottom right, rgb(228, 224, 0), rgb(255, 60, 0));
+    border-radius: 30px;
+    border: 5px black solid;
+    width: 240px;
+    height: 100px;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+.DivBorrarT {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 85px;
+    background: linear-gradient(to bottom right, rgb(255, 153, 0), rgb(240, 1, 1));
+    border-radius: 30px;
+    border: 5px black solid;
+    width: 240px;
+    height: 100px;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+footer {
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*--------------------------Punto y Menos, Especiales-----------------------*/
+.DivPoint {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 65px;
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(to bottom right, rgb(30, 255, 0), rgb(0, 122, 82));
+    border-radius: 30px;
+    border: 5px black solid;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+.DivAplyResta{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80px;
+    background: linear-gradient(to bottom right, rgb(138, 43, 226), rgb(192, 0, 192));
+    border-radius: 30px;
+    border: 5px black solid;
+    width: 110px;
+    height: 110px;
+    box-shadow: 5px 5px 5px #0000009a;
+}
+
+/*-----------------------------------------------Cambios de botomes---------------------------------------------------*/
+
+.DivNum1.clicked, .DivNum2.clicked, .DivNum3.clicked, .DivNum4.clicked, .DivNum5.clicked, .DivNum6.clicked, .DivNum7.clicked, .DivNum8.clicked, .DivNum9.clicked, .DivNum0.clicked, .DivPoint.clicked {
+    background: linear-gradient(to bottom right, rgb(21, 177, 0), rgb(0, 73, 49));
+    box-shadow: 0px 0px 0px #0000009a;
+}
+
+.DivAplyDivicion.clicked, .DivAplyMulti.clicked, .DivAplySuma.clicked, .DivIgual.clicked, .DivAplyResta.clicked {
+    background: linear-gradient(to bottom right, rgb(86, 13, 155), rgb(49, 4, 49));
+    box-shadow: 0px 0px 0px #0000009a;
+}
+
+.DivBorrar.clicked {
+    background: linear-gradient(to bottom right, rgb(151, 149, 0), rgb(161, 39, 1));
+    box-shadow: 0px 0px 0px #0000009a;
+}
+
+.DivBorrarT.clicked {
+    background: linear-gradient(to bottom right, rgb(185, 111, 0), rgb(139, 0, 0));
+    box-shadow: 0px 0px 0px #0000009a;
+}
+.DivIgual.clicked {
+    background: linear-gradient(to bottom right, rgb(0, 131, 131), rgb(0, 46, 133));
+    box-shadow: 0px 0px 0px #0000009a;
+}
